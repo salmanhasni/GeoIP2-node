@@ -74,7 +74,6 @@
     "camelcase-keys": "^6.0.1",
     "ip6addr": "^0.2.3",
     "lodash.set": "^4.3.2",
-    "maxmind": "4.3.5",
-    "yarn": "^1.22.19"
+    "maxmind": "4.3.5"
   }
 }
