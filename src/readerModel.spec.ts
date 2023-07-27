@@ -35,7 +35,6 @@ describe('ReaderModel', () => {
         },
         country: {
           geonameId: 2635167,
-          isInEuropeanUnion: true,
           isoCode: 'GB',
           names: {
             de: 'Vereinigtes Königreich',
@@ -265,7 +264,6 @@ describe('ReaderModel', () => {
         },
         country: {
           geonameId: 2635167,
-          isInEuropeanUnion: true,
           isoCode: 'GB',
           names: {
             de: 'Vereinigtes Königreich',
@@ -490,7 +488,7 @@ describe('ReaderModel', () => {
       const model: any = reader.connectionType('1.0.0.1');
 
       const expected = {
-        connectionType: 'Dialup',
+        connectionType: 'Cable/DSL',
         ipAddress: '1.0.0.1',
         network: '1.0.0.0/24',
       };
@@ -566,7 +564,6 @@ describe('ReaderModel', () => {
         country: {
           confidence: 95,
           geonameId: 2635167,
-          isInEuropeanUnion: true,
           isoCode: 'GB',
           names: {
             de: 'Vereinigtes Königreich',
