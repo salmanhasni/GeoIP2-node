@@ -1,5 +1,5 @@
 {
-  "name": "@maxmind/geoip2-node",
+  "name": "salmanh-geoip2-node",
   "version": "2.2.0",
   "description": "Node.js API for GeoIP2 webservice client and database reader",
   "main": "dist/src/index.js",
@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/maxmind/GeoIP2-node.git"
   },
-  "author": "MaxMind",
+  "author": "Salman Hasni",
   "license": "Apache-2.0",
   "private": false,
   "keywords": [
